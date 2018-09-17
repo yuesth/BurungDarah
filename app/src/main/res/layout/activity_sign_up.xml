@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_blood"
+    android:theme="@style/RedBlood"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/logo_layout"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BurungDarah"
+            android:textSize="30sp"
+            android:textColor="@color/tabIndicator"
+            android:layout_marginTop="20dp"
+            android:id="@+id/namalogo_signup"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_layout"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:gravity="left">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/username_signup"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/tabIndicator"
+            android:hint="Username atau nama lengkap"
+            android:background="@drawable/bg_input_login"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/email_signup"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/tabIndicator"
+            android:hint="Email"
+            android:background="@drawable/bg_input_login"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/password_signup"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/tabIndicator"
+            android:hint="Password"
+            android:background="@drawable/bg_input_login"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signup"
+            android:background="@drawable/bg_btn_3"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="SIGN UP"
+            android:textColor="@color/tabIndicator"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gotologin_sigup"
+            android:textColor="@color/tabIndicator"
+            android:layout_gravity="center"
+            android:text="Already have account? Log In here"
+            android:textSize="13sp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

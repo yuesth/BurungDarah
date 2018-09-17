@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChatKito</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi, consectetur consequuntur, corporis cum, dicta dolores earum iusto magnam modi nihil numquam porro quo quod similique tempora vero vitae voluptatem.</string>
+</resources>

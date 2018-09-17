@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_explore"
+    android:background="@color/tabIndicator"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="16dp"
+    app:cardElevation="7dp">
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="3dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/dondar2"
+                android:id="@+id/poster_explore"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:id="@+id/judul_explore"
+                    android:textColor="@color/blackmamba"
+                    android:text="Donor darah INTERIO bersama PMI"
+                    android:maxLines="2"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tanggal_explore"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_60"
+                    android:text="Minggu, 20 Mei 2018"
+                    android:maxLines="2"
+                    android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                    android:layout_marginBottom="3dp"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/waktu_explore"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_60"
+                    android:text="11.00 - 14.00 WIB"
+                    android:maxLines="2"
+                    android:drawableLeft="@drawable/ic_watch"
+                    android:drawablePadding="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tempat_explore"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey_60"
+                    android:text="INTERIO Cengkareng"
+                    android:maxLines="2"
+                    android:drawableLeft="@drawable/ic_place"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"/>
+
+                <com.borjabravo.readmoretextview.ReadMoreTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/konten_explore"
+                    android:text="@string/loremIpsum"
+                    app:trimExpandedText="Show more"
+                    app:trimCollapsedText="Show less"
+                    app:trimLength="30"
+                    app:trimMode="trimModeLength"/>
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/konten_explore"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+                    <!--android:textColor="@color/grey_60"-->
+                    <!--android:text="@string/loremIpsum"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:ellipsize="marquee"/>-->
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>
